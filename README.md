@@ -12,7 +12,7 @@
 ![image](https://user-images.githubusercontent.com/70667501/132260524-a470ab50-a485-4e84-8332-2cc3d54bda54.png)
 
 ### 2. Leitura do CEP e retorno das informações a partir do VIACEP<br>
-      def consultacep(self, cep):
+    def consultacep(self, cep):
         print = psg.Print
         url = requests.get(f'https://viacep.com.br/ws/{cep}/json/')
         if url.status_code == 200:
